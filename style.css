@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "outfit", serif;
+  background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body p {
+  color: hsl(208, 11%, 55%);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: cyan;
+}
+/* h1 span{
+    color: aqua;
+} */
+.container {
+  max-width: 350px;
+  margin: o auto;
+}
+.card {
+  margin: 2rem 1rem;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.form-input input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.form-input input:nth-child(1) {
+  margin-bottom: 10px;
+}
+.form-input p {
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.form-input .btn {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0 0 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 200pxpx;
+}
+.social li {
+  list-style: none;
+}
+.social .circle {
+  border: 1px solid white;
+  border-radius: 25%;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+.center1 {
+  text-align: center;
+  margin: 15px;
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 15px;
+}
+.center1 span {
+  color: aqua;
+}
+.form-input .btn:hover {
+  cursor: pointer;
+  background: aqua;
+  color: hsl(217, 54%, 11%);
+  /* font-weight: bold; */
+}
+.form-input p:hover {
+  cursor:pointer ;
+  color: aqua;
+}
+.social .circle:hover {
+  cursor: pointer;
+  color: aqua;
+  border: 1px solid aqua;
+
+}
